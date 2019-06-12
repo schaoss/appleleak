@@ -9,11 +9,10 @@
     "128": "icons/128x128.png"
   },
   "browser_action": {
-    "default_icon": "icons/16x16.png",
-    "default_popup": "popup.html"
+    "default_icon": "icons/16x16.png"
   },
   "permissions": [
-    "activeTab"
+    "activeTab", "https://tw.appledaily.com/*"
   ],
   "content_scripts": [
     {
